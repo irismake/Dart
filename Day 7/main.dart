@@ -7,9 +7,9 @@ String sayHi({
 }
 
 void main() {
-  print(sayHi(
+  sayHi(
     age: 12,
     country: 'seoul',
     name: 'iris',
-  ));
+  );
 }
